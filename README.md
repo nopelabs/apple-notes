@@ -19,7 +19,7 @@ O `memo` é um utilitário de terceiros usado para consultar o Apple Notes.
 
 ## 2. Instale a skill
 
-1. Descompacte o ZIP. Dentro dele há uma pasta chamada `apple-notes`, contendo `SKILL.md` e `scripts/`.
+1. Nesta página, clique em **Code → Download ZIP** e descompacte o arquivo. Dentro da pasta `apple-notes-main` há outra pasta chamada `apple-notes`, contendo `SKILL.md` e `scripts/`. É essa pasta interna que você vai instalar.
 2. No Finder, escolha **Ir → Ir para a Pasta** e abra `~/.hermes/skills/`. Se não houver uma pasta chamada `apple`, crie-a e abra-a.
 3. Antes de copiar, confira se existe outra skill local chamada `apple-notes` em `skills/` ou em suas categorias. Se houver, mova sua pasta para um backup fora de `skills`, como `~/.hermes/skills-backup/` (crie a pasta de backup se necessário). Se já houver um backup com esse nome, escolha outro para não sobrescrevê-lo.
 4. Copie para `~/.hermes/skills/apple/` a pasta `apple-notes` que veio no ZIP.
